@@ -1,0 +1,10 @@
+# 忽略idea文件
+*.iml
+/.idea/
+/*/.idea/
+/logs/*
+*/out/
+/build/
+/*/build/
+.gradle
+/*/.gradle
