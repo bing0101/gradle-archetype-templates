@@ -1,0 +1,4 @@
+bootRun {
+    jvmArgs = ["-Dspring.profile.active=dwd-dev", "-Dlogging.file.path=logs", "-Dproject.name=dubbo-service"]
+}
+
