@@ -67,3 +67,9 @@ project(":dubbo-service") {
 project(":dubbo-api") {
     apply plugin: "maven"
 }
+
+task zip(type: Zip){
+    archiveName "test.zip"
+    println project.rootDir
+    from project.rootDir
+}
